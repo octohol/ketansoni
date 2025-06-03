@@ -78,6 +78,9 @@ def create_games():
         print(f"Added {game_count} games with {len(categories)} categories and {len(publishers)} publishers")
 
 def seed_database():
+    """
+    Seeds the database with initial game data by calling create_games().
+    """
     create_games()
 
 if __name__ == '__main__':
